@@ -1,0 +1,21 @@
+{
+  "name": "doc-segment",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pdf-parse": "^1.1.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^1.2.12",
+    "@ai-sdk/openai": "^1.3.23",
+    "@mistralai/mistralai": "^1.7.4",
+    "ai": "^4.3.19",
+    "pdf-to-img": "^4.5.0",
+    "uploadthing": "^7.7.3"
+  }
+}

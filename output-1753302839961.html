@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>BBVA - Solicitud de Hipoteca</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="w-full flex flex-col items-center pt-10 pb-2">
+    <div class="flex items-center space-x-4">
+      <img src="./placeholder.svg" alt="BBVA Logo" class="w-32 h-12 object-contain" />
+    </div>
+    <h2 class="text-[#0097A9] text-lg font-semibold mt-2 tracking-wide">Creando Oportunidades</h2>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-5xl mx-auto px-4">
+    <!-- PAGE 1: Solicitud de Hipoteca -->
+    <section class="flex flex-col md:flex-row md:space-x-8 mt-8">
+      <!-- Main Left Content -->
+      <div class="flex-1">
+        <div class="mb-8">
+          <span class="inline-block w-32 h-6 bg-gray-300 align-middle rounded mr-2"></span>
+          <span class="text-gray-600 text-xl align-middle">, tu solicitud de hipoteca está en marcha.</span>
+        </div>
+        <p class="text-gray-600 mb-6">En este documento se recogen los datos aportados el <span class="font-semibold">04-07-2025</span> para descubrir cómo sería tu hipoteca en BBVA.</p>
+        <div class="mb-8">
+          <a class="text-[#0097A9] font-medium underline cursor-pointer">Resultado de la simulación de hipoteca sin bonificación.</a>
+          <div class="flex items-end mt-4 mb-2">
+            <div class="flex-1 text-center">
+              <div class="text-gray-500 text-sm mb-1">Los seis primeros meses:<br>(6 cuotas)</div>
+              <div class="text-4xl font-light tracking-tight">650<span class="align-super text-lg">,78</span><span class="text-2xl">€</span></div>
+              <div class="text-xs text-gray-500 mt-1">TIN: 2,35%</div>
+            </div>
+            <div class="mx-4 text-3xl text-gray-400 font-light">/</div>
+            <div class="flex-1 text-center">
+              <div class="text-gray-500 text-sm mb-1">29 años y 6 meses restantes:<br>(354 cuotas)</div>
+              <div class="text-4xl font-light tracking-tight">739<span class="align-super text-lg">,06</span><span class="text-2xl">€</span></div>
+              <div class="text-xs text-gray-500 mt-1">TIN: 3,35% TAE: 3,888%</div>
+            </div>
+          </div>
+          <div class="flex justify-between text-xs text-gray-500 mt-2">
+            <div>Coste total: 114.326,98 € (de los que 97.533,12 € son intereses).</div>
+            <div>Importe total a reembolsar: 282.326,98 €</div>
+          </div>
+        </div>
+        <div class="mb-8">
+          <a class="text-[#0097A9] font-medium underline cursor-pointer">Resultado de la simulación de hipoteca con la bonificación que has seleccionado</a>
+          <div class="text-center mt-4 mb-2">
+            <div class="text-gray-500 text-sm mb-1">Cuota fija. 30 años (360 cuotas)</div>
+            <div class="text-4xl font-light tracking-tight">650<span class="align-super text-lg">,78</span><span class="text-2xl">€</span></div>
+            <div class="text-xs text-gray-500 mt-1">TIN: 2,35% &nbsp;&nbsp; TAE: 3,144%</div>
+          </div>
+          <div class="flex justify-between text-xs text-gray-500 mt-2">
+            <div>Coste total 87.472,87 € (siendo de este importe 66.278,41 € los intereses).</div>
+            <div>Importe total a reembolsar: 255.472,87 €</div>
+          </div>
+        </div>
+        <div class="mb-6">
+          <a class="text-[#0097A9] font-medium underline cursor-pointer">Detalle aproximado de los gastos</a>
+          <p class="text-xs text-gray-500 mt-2 mb-2">Los gastos incluidos se facilitan a título informativo, estos importes son aproximados, y pueden variar en función del importe del préstamo, de la CC.AA., del prestador del servicio y del tipo del inmueble.</p>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left border-t border-b border-gray-300">
+              <thead>
+                <tr class="text-gray-600">
+                  <th class="font-medium py-2 px-2 border-b border-gray-200"></th>
+                  <th class="font-medium py-2 px-2 border-b border-gray-200">Gastos compra-venta</th>
+                  <th class="font-medium py-2 px-2 border-b border-gray-200">Gastos Hipoteca</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="py-1 px-2">Impuestos</td>
+                  <td class="py-1 px-2">22.770,00</td>
+                  <td class="py-1 px-2">0,00</td>
+                </tr>
+                <tr class="bg-gray-50">
+                  <td class="py-1 px-2">Notario</td>
+                  <td class="py-1 px-2">763,20</td>
+                  <td class="py-1 px-2">0,00</td>
+                </tr>
+                <tr>
+                  <td class="py-1 px-2">Registro</td>
+                  <td class="py-1 px-2">371,70</td>
+                  <td class="py-1 px-2">0,00</td>
+                </tr>
+                <tr class="bg-gray-50">
+                  <td class="py-1 px-2">Gestoría</td>
+                  <td class="py-1 px-2">344,85</td>
+                  <td class="py-1 px-2">0,00</td>
+                </tr>
+                <tr>
+                  <td class="py-1 px-2">Tasación</td>
+                  <td class="py-1 px-2">0,00</td>
+                  <td class="py-1 px-2">273,46</td>
+                </tr>
+                <tr class="bg-gray-50">
+                  <td class="py-1 px-2">Comisión Apertura</td>
+                  <td class="py-1 px-2">0,00</td>
+                  <td class="py-1 px-2">0,00</td>
+                </tr>
+                <tr>
+                  <td class="py-1 px-2 font-semibold">Total</td>
+                  <td class="py-1 px-2 font-semibold">24.249,75</td>
+                  <td class="py-1 px-2 font-semibold">273,46</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- Main Right Sidebar -->
+      <aside class="w-full md:w-80 flex-shrink-0 mt-8 md:mt-0">
+        <div class="flex flex-col items-center mb-6">
+          <img src="./placeholder.svg" alt="Casa" class="w-40 h-28 object-contain mb-2" />
+        </div>
+        <div class="bg-gray-50 border border-gray-200 rounded-lg p-4 mb-4">
+          <h3 class="text-[#0097A9] text-base font-semibold mb-2">Datos del inmueble</h3>
+          <div class="flex flex-col space-y-2 text-sm">
+            <div class="flex justify-between"><span class="font-medium">Tipo de vivienda:</span><span>Compra 1ª Vivienda</span></div>
+            <div class="flex justify-between"><span class="font-medium">Estado</span><span>Vivienda nueva</span></div>
+            <div class="flex justify-between"><span class="font-medium">Provincia</span><span>Barcelona</span></div>
+            <div class="flex justify-between"><span class="font-medium">Precio de Compra</span><span>198.000,00 €</span></div>
+            <div class="flex justify-between"><span class="font-medium">Importe solicitado <span class="font-normal">(límite máximo 80% del valor de tasación)</span></span><span>168.000,00 €</span></div>
+            <div class="flex justify-between"><span class="font-medium">Plazo</span><span>30 años (360 cuotas)</span></div>
+            <div class="flex justify-between"><span class="font-medium">Financiación</span><span>84,85%</span></div>
+          </div>
+        </div>
+        <div class="bg-gray-50 border border-gray-200 rounded-lg p-4 flex items-center space-x-3">
+          <img src="./placeholder.svg" alt="Info" class="w-8 h-8 object-contain" />
+          <div>
+            <div class="text-sm font-medium">¿Tienes alguna duda o necesitas más información?</div>
+            <div class="text-xs text-gray-500">Muy pronto un Gestor BBVA se pondrá en contacto contigo.</div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- PAGE 2: Datos personales y económicos -->
+    <section class="mt-16">
+      <h3 class="text-[#0097A9] text-base font-semibold mb-4">Datos personales y económicos</h3>
+      <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm border-t border-b border-gray-300">
+          <thead>
+            <tr>
+              <th class="py-2 px-2 font-semibold text-gray-600 border-b border-gray-200 text-left">Primer titular</th>
+              <th class="py-2 px-2 font-semibold text-gray-600 border-b border-gray-200 text-left">Segundo titular</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="py-1 px-2">Nombre: <span class="inline-block w-24 h-4 bg-gray-300 align-middle rounded"></span></td>
+              <td class="py-1 px-2">Nombre: <span class="inline-block w-24 h-4 bg-gray-300 align-middle rounded"></span></td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="py-1 px-2">Apellidos: <span class="inline-block w-32 h-4 bg-gray-300 align-middle rounded"></span></td>
+              <td class="py-1 px-2">Apellidos: <span class="inline-block w-32 h-4 bg-gray-300 align-middle rounded"></span></td>
+            </tr>
+            <tr>
+              <td class="py-1 px-2">NIF: <span class="inline-block w-20 h-4 bg-gray-300 align-middle rounded"></span></td>
+              <td class="py-1 px-2">NIF: <span class="inline-block w-20 h-4 bg-gray-300 align-middle rounded"></span></td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="py-1 px-2">Fecha de Nacimiento: <span class="inline-block w-24 h-4 bg-gray-300 align-middle rounded"></span></td>
+              <td class="py-1 px-2">Fecha de Nacimiento: <span class="inline-block w-24 h-4 bg-gray-300 align-middle rounded"></span></td>
+            </tr>
+            <tr>
+              <td class="py-1 px-2">Provincia de Residencia: Barcelona</td>
+              <td class="py-1 px-2">Provincia de Residencia: Barcelona</td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="py-1 px-2">Código Postal: 08980</td>
+              <td class="py-1 px-2">Tipo de Ocupación: FIJO/A</td>
+            </tr>
+            <tr>
+              <td class="py-1 px-2">Tipo de Ocupación: AUTONOMO/A</td>
+              <td class="py-1 px-2">Empresa en la que trabaja: <span class="inline-block w-32 h-4 bg-gray-300 align-middle rounded"></span></td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="py-1 px-2">Empresa en la que trabaja: Odontologa</td>
+              <td class="py-1 px-2">Antigüedad en la empresa: 2010</td>
+            </tr>
+            <tr>
+              <td class="py-1 px-2">Antigüedad en la empresa: 2005</td>
+              <td class="py-1 px-2">Ingresos netos mensuales: 2.500,00 €</td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="py-1 px-2">Ingresos netos mensuales: 4.500,00 €</td>
+              <td class="py-1 px-2">Deuda pendiente otros préstamos consumo: 0,00 €</td>
+            </tr>
+            <tr>
+              <td class="py-1 px-2">Deuda pendiente otros préstamos consumo: 0,00 €</td>
+              <td class="py-1 px-2">Gastos Otros Préstamos: 0,00 €</td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="py-1 px-2">Gastos Otros Préstamos: 0,00 €</td>
+              <td class="py-1 px-2">Otros gastos: 0,00 €</td>
+            </tr>
+            <tr>
+              <td class="py-1 px-2">Otros gastos: 0,00 €</td>
+              <td class="py-1 px-2"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="text-xs text-gray-600 space-y-3">
+        <p>La concesión del Préstamo hipotecario, destinado a financiar la compra de una vivienda garantizada por la hipoteca, está sujeta a previa aprobación de BBVA.</p>
+        <p>La información que le proporcionamos en este documento no es vinculante para el Banco y está sujeta a la evaluación de su solvencia que hará BBVA antes de emitirle una oferta vinculante (FEIN) y entregarle la información precontractual que exige la normativa vigente, una vez usted concluya su solicitud en nuestras oficinas. Tiene que concluir la evaluación de solvencia antes del 04-08-2025.</p>
+        <p>La información del Préstamo hipotecario es por el plazo y porcentaje de financiación detallada en el resumen de la información apartado Datos del inmueble.</p>
+        <p>Requisitos: Los titulares tienen que ser residentes en España, con principales ingresos y patrimonio en Euros. La edad de los titulares más el plazo del préstamo no podrá superar los 75 años. Para contratar este préstamo hipotecario debe disponer/contratar, hasta la finalización del préstamo, una cuenta a la vista en BBVA, y un seguro de daños sobre el inmueble hipotecado, que cubra incendio, explosión y por causas naturales, con cualquier aseguradora. La suma asegurada deberá coincidir con el valor de tasación excluyendo el valor del suelo. Deberá designarse como beneficiario al Banco por el importe del préstamo que esté pendiente de reembolsar, debiendo notificar al asegurador la existencia del préstamo hipotecario.</p>
+        <p>El prestatario no tiene la obligación de contratar todos o algunos de los productos y/o servicios que ha seleccionado, pudiendo contratarse cada uno de ellos, a su expresa solicitud, de forma separada.</p>
+        <p>No hay obligación del Banco y/o de la Aseguradora de contratar con usted todos o alguno de los productos o servicios que ha elegido y que se indican a continuación.</p>
+      </div>
+    </section>
+
+    <!-- PAGE 3: Productos combinados y condiciones -->
+    <section class="mt-16">
+      <h3 class="text-[#0097A9] text-base font-semibold mb-4">Productos combinados que usted ha seleccionado:</h3>
+      <ul class="list-disc pl-6 mb-4 text-sm">
+        <li>Nómina/Ingreso + Seguro Multirriesgo Hogar con BBVA Allianz Seguros.</li>
+        <li>Seguro de amortización de préstamo con BBVA Seguros.</li>
+      </ul>
+      <p class="text-sm mb-4">Para la concesión del préstamo será necesario tasar el inmueble cuyo coste será asumido por el titular.<br>
+      La contratación de los seguros de Multirriesgo Hogar y de Amortización de préstamo, con BBVA Allianz Seguros y BBVA Seguros respectivamente, no es condición necesaria ni obligatoria para la obtención de financiación. Finalmente, te informamos que los productos de seguro mencionados anteriormente tienen relación con el producto principal (de la propia financiación o del bien financiado) y que serán libremente elegidos por ti, en el supuesto de que se ajusten a las exigencias y necesidades que declares en el proceso previo a la contratación.</p>
+      <p class="text-sm mb-4">Una vez transcurrido el periodo inicial, en cada una de las revisiones SEMESTRALES, el tipo fijo será de 3,35%, que se podrá bonificar hasta el 2,35% por la contratación opcional, mantenimiento y cumplimiento de los productos indicados, siempre que el prestatario esté al corriente de pago de las cuotas y no tenga deudas pendientes con el Banco (*).</p>
+      <p class="text-xs mb-2">(1) La TAE ha sido calculada de acuerdo con la fórmula que aparece en el Anexo II de la Ley 5/2019, de 15 de marzo, reguladora de los contratos de crédito inmobiliario.</p>
+      <p class="text-xs mb-2">(2)Incluye un Seguro de Amortización de préstamo con BBVA Seguros (**) con prima única de 4.400,60€.</p>
+      <p class="text-xs mb-4">Se ha calculado la TAE bajo la hipótesis de que no se produce ningún reembolso anticipado, ni parcial ni total, a lo largo de toda la duración del préstamo. Se han tenido en cuenta para el cálculo de la TAE, el tipo de interés nominal fijo del período inicial, y el tipo de interés nominal fijo del resto del plazo, los gastos adicionales: 0,00 € comisión apertura ( 0,00 % ), 0,00 € registro, 0,00 € gestoría, 0,00 € impuesto, 273,46 € tasación, 4.400,60 € Seguro de Amortización de préstamo con BBVA Seguros (**) , 300,00 € Seguro Multirriesgo Hogar con BBVA Allianz Seguros sin cobertura de contenido, (240,00 €) comisión de mantenimiento de la cuenta donde se realizarán los cargos del prestamo, (0,89 €) gastos de correos suplidos a cobrar por cuota en base al tarifario vigente, que cambia cada año. Estas cifras son estimadas, pueden variar en función del importe del préstamo, de la CC.AA. y del tipo de inmueble.</p>
+      <div class="mb-4">
+        <span class="font-semibold text-sm">Fórmula para el cálculo de las cuotas de amortización comprensivas de capital e intereses:</span>
+        <div class="bg-gray-50 rounded p-3 mt-2 text-xs font-mono text-gray-700">
+          Cuota = (C*i/m)/(1-(1+i/m)EXP(-m*n))<br>
+          <span class="font-normal">Siendo:</span><br>
+          C: Capital del préstamo: 150.000€<br>
+          i: Tipo de interés nominal anual (expresado en tanto por unidad): 0,025<br>
+          m: Número de cuotas anuales: 12<br>
+          n: Número de años del plazo de duración: 25<br>
+          <span class="font-normal">Ejemplo:</span><br>
+          Cuota = 150000*0,025/12/(1-(1+0,025/12) Exp (-12*25))=672,93 €<br>
+          Sistema de amortización francés.<br>
+          Sin comisiones por amortización total o parcial. Sin comisiones de apertura .
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 4: Condiciones y advertencias -->
+    <section class="mt-16">
+      <p class="text-sm mb-4">En caso de incumplir las obligaciones con el Banco, puede perder la vivienda. Los titulares, y personas que presten garantía, responderán con todos sus bienes presentes o que tengan en el futuro, salvo que se limite su responsabilidad en el contrato de préstamo hipotecario.</p>
+      <p class="text-xs mb-2">(*) NÓMINA o PENSIÓN: se entiende a estos efectos la domiciliación ininterrumpida durante los seis meses previos al mes anterior al que vaya a ser aplicable la bonificación, en una cuenta abierta en el BBVA, de nómina, pensión, subsidio de desempleo o domiciliación del pago de la cuota de autónomos de la Seguridad Social (no computando a estos efectos la domiciliación del pago de mutualidades u otros sistemas de previsión social). La domiciliación de la nómina tendrá que ser por un importe igual o superior a 600,00€ al mes. La domiciliación de la pensión, subsidio de desempleo tendrá que ser por un importe igual o superior a 300,00 € al mes, y la domiciliación del pago de la cuota de autónomos no tiene ningún importe mínimo bastando para cumplir con el requisito que se tenga domiciliado el pago.</p>
+      <p class="text-xs mb-2">SEGURO MULTIRRIESGO HOGAR CON BBVA ALLIANZ SEGUROS: que deberá contratarse con la Compañía "BBVA Allianz Seguros", o cualquier otra compañía aseguradora perteneciente al Grupo BBVA; debiendo mantener dicho contrato de seguro vigente y al corriente de pago de las correspondientes primas el último día del segundo mes anterior que vaya a ser aplicable la bonificación.</p>
+      <p class="text-xs mb-2">SEGURO DE AMORTIZACIÓN DEL PRESENTE PRÉSTAMO: Bien sea a Prima Única Financiada (PUF) o Temporal Anual Renovable (TAR). Deberá asegurar al menos la mitad del importe del préstamo. En el caso de que la mitad del importe del préstamo concedido sea superior a 150.000 €, se deberá asegurar como mínimo este importe. Esta modalidad de seguro tendrá que contratarse con la Compañía "BBVA Allianz Seguros" o cualquier otra compañía aseguradora perteneciente al Grupo BBVA; debiendo mantener el contrato de seguro vigente y al corriente de pago de las correspondientes primas el último día del segundo mes anterior al que vaya a ser aplicable la bonificación.</p>
+      <p class="text-xs mb-2">Aseguradora: BBVA Allianz Seguros y Reaseguros, inscrita en el Reg. de la Dirección General de Seguros y Fondos de Pensiones con la clave C502 y BBVA ALLIANZ SEGUROS Y REASEGUROS,S.A. (Clave DGSFP C0807). Mediador: BBVAMEDIACIÓN, OPERADOR DE BANCASEGUROS VINCULADO S.A., inscrita en el Reg. Administrativo Especial de Mediadores de seguros de la Dirección General de Seguros y Fondos de Pensiones con la clave OV0060. Concertado Seguro de Responsabilidad Civil y dispone de capacidad financiera.</p>
+      <p class="text-xs mb-2">Calculados para un seguro de vida para un titular de 31 años, (ej. calculado sin sobreprima por profesión ni cuestionario de salud) para un capital asegurado 150.000€ y plazo de 25 años ( 300 cuotas). En consecuencia estas cantidades podrán variar ajustándose a sus circunstancias.</p>
+      <p class="text-xs mb-2">Esta solicitud de simulación es informativa a todos los efectos, no representando recomendación o compromiso contractual para ninguna de las partes. La formalización de la operación estará sujeta a la previa aprobación del Banco. Los cálculos y la información que se muestran son orientativos y están sujetos a posibles modificaciones, derivadas de las variaciones que pudieran existir en el índice de referencia/tipo de interés simulado entre la fecha de este documento y la fecha de formalización, así como por la modificación de características y la inclusión de servicios/productos accesorios y opcionales. Tiene la Ficha de Información Precontractual a su disposición, de forma gratuita, en la web y oficinas de BBVA, en www bbva.es/particulares/hipotecas-prestamos/hipotecas.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="w-full mt-16 py-6 flex flex-col items-center text-xs text-gray-400">
+    <div>BBVA S.A. B.I.C. BBVAESMMXXX. Avda. de la Castellana, 81, 28046 Madrid. Inscrita en el Registro Mercantil de Madrid, Tomo 20807, Folio 1, Sección 8, Hoja M-351486, Inscripción 1ª. N.I.F. A-48265169.</div>
+  </footer>
+</body>
+</html>
